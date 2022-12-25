@@ -65,7 +65,7 @@ public class ClientThread extends Thread{
         return facts;
     }
 
-    public static String getGreeting() {
+    public static synchronized String getGreeting() {
         return greeting;
     }
 
